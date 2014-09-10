@@ -1,0 +1,26 @@
+Etape 1:
+(NOM=UPPER(NOM)),
+CREATE TABLE FROMAGES (
+NF INTEGER PRIMARY KEY,
+NOM VARCHAR2(20) constraint CK_NOM check (INITCAP(NOM)=NOM),
+TYPE VARCHAR2(20) constraint CK_TYPE not null,
+LAIT VARCHAR2(20) constraint CK_LAIT check(LAIT = 'brebis' or LAIT = 'vache' or LAIT = 'autre'),
+PRIX INTEGER constraint CK_Prix  check (PRIX > 0)
+); 
+
+CREATE TABLE DEGUSTATION(
+NP NUMBER(5) PRIMARY KEY,
+CONSTRAINT FK_NF FOREIGN KEY(NF) REFERENCES FROMAGES(NF),
+DATE DATE CK_Date check(DATE > sysdate),
+QTE SMALLINT CK_QTE check (QTE > 0)
+);
+
+CREATE TABLE PERSONNES(
+NP INTEGER PRIMARY KEY,
+NOM VARCHAR2(20) constraint CK2_NOM not null,
+PRENOM VARCHAR2(20) constraint CK2_PRENOM not null,
+VILLE VARCHAR2(20) constraint CK2_VILLE not null
+);
+
+Etape 2:
+

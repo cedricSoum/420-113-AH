@@ -1,0 +1,5 @@
+\\v-ficahper.ca.intra\mesdocuments\etudiants\2012\201276487\visual studio 2010\Projects\Jeu_de_Des\Jeu_de_Des\obj\x86\Debug\ResolveAssemblyReference.cache
+\\v-ficahper.ca.intra\mesdocuments\etudiants\2012\201276487\visual studio 2010\Projects\Jeu_de_Des\Jeu_de_Des\obj\x86\Debug\Jeu_de_Des.De.resources
+\\v-ficahper.ca.intra\mesdocuments\etudiants\2012\201276487\visual studio 2010\Projects\Jeu_de_Des\Jeu_de_Des\obj\x86\Debug\Jeu_de_Des.Properties.Resources.resources
+\\v-ficahper.ca.intra\mesdocuments\etudiants\2012\201276487\visual studio 2010\Projects\Jeu_de_Des\Jeu_de_Des\obj\x86\Debug\GenerateResource.read.1.tlog
+\\v-ficahper.ca.intra\mesdocuments\etudiants\2012\201276487\visual studio 2010\Projects\Jeu_de_Des\Jeu_de_Des\obj\x86\Debug\GenerateResource.write.1.tlog

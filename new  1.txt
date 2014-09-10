@@ -1,0 +1,28 @@
+TTITLE ('## Liste des départements ##');
+set serveroutput on
+set verify off
+DECLARE
+CURSOR Cur_Dept IS SELECT deptno, dname FROM DEPT;
+v_dept dept%ROWTYPE;
+Cursor Cur_emp (numdept emp.deptno%TYPE) IS SELECT ename, job,hiredate,sal FROM EMP WHERE emp.deptno = numdept;
+v_emp emp%ROWTYPE;
+
+BEGIN
+OPEN Cur_Dept;
+loop
+FETCH Cur_Dept INTO v_dept;
+exit when Cur_dept%NOTFOUND;
+dbms_output.put_line('Numéro:'||v_dept.deptno||'');
+dbms_output.put_line('Nom:'||v_dept.dname);
+end Loop;
+CLOSE Cur_Dept;
+
+OPEN Cur_emp(v.dept.deptno);
+loop
+FETCH Cur_emp INTO v_emp;
+ exit when Cur_Emp%NOTFOUND;
+dbms_output.put_line(RPAD(v_emp.ename, 15)||RPAD(v_emp.job,15)||RPAD(v_emp.hiredate,15)||RPAD(v_emp.sal,15));
+end Loop;
+CLOSE Cur_Emp;
+END;
+/

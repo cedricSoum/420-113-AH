@@ -1,0 +1,3 @@
+Select c.nom, p.desc from client c, piece p, commande d
+
+Where(c.numclient=d.numclient)and(d.numpiece=p.numpiece)and(c.numclient=001);

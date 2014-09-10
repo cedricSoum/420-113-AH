@@ -1,0 +1,15 @@
+SQL> set termout off
+SQL> START M:\listeemp1.sql
+
+     EMPNO ENAME                                                                
+---------- ----------                                                           
+      7499 ALLEN                                                                
+      7902 FORD                                                                 
+      7654 MARTIN                                                               
+      7934 MILLER                                                               
+      7844 TURNER                                                               
+      7521 WARD                                                                 
+
+6 rows selected.
+
+SQL> SPOOL OFF

@@ -1,0 +1,1 @@
+http://books.google.ca/books?id=FQC8EPYy834C&pg=PA181&lpg=PA181&dq=attach+to+a+running+process+ollydbg&source=bl&ots=BspqjBDi2i&sig=7S2uio6ApIOiSoZ5xU3PbJlSniI&hl=fr&sa=X&ei=b68pU-2SKsmy2wXkh4DoDg&ved=0CIEBEOgBMAc#v=onepage&q=attach%20to%20a%20running%20process%20ollydbg&f=false

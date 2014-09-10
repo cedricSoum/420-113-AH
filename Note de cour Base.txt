@@ -1,0 +1,11 @@
+COur base:
+Déclarations: Types composites:
+Declaration type
+
+Declare variable composée
+
+Les Curseurs
+
+Meme types que le curseur sinon il ne peut pas suivre.
+
+v_emp emp%ROWTYPE; <- Cur_emp%ROWTYPE
